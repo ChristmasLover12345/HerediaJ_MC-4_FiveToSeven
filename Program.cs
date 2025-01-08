@@ -1,3 +1,5 @@
+using HerediaJ_MC_4_FiveToSeven.Services;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -6,6 +8,8 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.AddScoped<MadLibService>();
+builder.Services.AddScoped<OddOrEvenService>();
 
 var app = builder.Build();
 
