@@ -10,6 +10,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddScoped<MadLibService>();
 builder.Services.AddScoped<OddOrEvenService>();
+builder.Services.AddScoped<ReverseItAplhaService>();
 
 var app = builder.Build();
 
