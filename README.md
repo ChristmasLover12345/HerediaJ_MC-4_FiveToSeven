@@ -8,4 +8,6 @@
 
 
 
-// Peer Reviewed by :
+// Peer Reviewed by : Bronel Lazar
+
+//Peer Comments: Good job! everything works good and you implemented validation for the endpoints it was necessary for. I like your use of storing the user's inputs into the char array for reverse it in order to allow for the case of an ending 0 in the input to be included.
